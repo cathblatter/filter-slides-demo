@@ -1,0 +1,36 @@
+---
+title: "Optionally include/exclude slides"
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+echo: true
+filters: 
+  - hideadvanced.lua
+---
+
+## Welcome
+
+This slide is for everyone
+
+## Example 
+
+Mean age calculation in a group of four people
+
+```{r}
+# vector for age
+age <- c(33, 44, 55, 66)
+
+mean(age)
+```
+
+
+## Additional info {.advanced}
+
+This slide is for the advanced class: 
+
+```{r}
+median(age)
+```
+
+
+
